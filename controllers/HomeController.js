@@ -7,5 +7,8 @@ const about = (req, res) => {
 const contact = (req, res) => {
   res.send("Welcome to the contact page!");
 };
+const professional = (req, res) => {
+    res.send();
+};
 
-module.exports = { index, about, contact };
+module.exports = { index, about, contact, professional };
